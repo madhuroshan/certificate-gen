@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap");
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Certify Me</h1>
+        <h2>Make unique certificates in minutes. No design skills needed.</h2>
+      </div>
+      <div class="input-field">
+        <input
+          type="text"
+          class="question"
+          id="name"
+          class="text-field"
+          required
+          autocomplete="off"
+          placeholder="Enter your name"
+        />
+        <input type="submit" id="submitBtn" class="submit-btn" value="Get" />
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="filesaver.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
